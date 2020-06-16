@@ -1,37 +1,37 @@
 body{
-  background-color: #120136;
+  background-color: #45046a;
 }
 
 hr{
   border-style: none;
   border-top-style: dotted;
-  border-color: #40bad5;
-  background-color: #120136;
+  border-color: #5c2a9d;
+  background-color: #45046a;
   border-width: 5px;
   width: 15%;
 
 }
 
 h1{
-  color: #035aa6;
+  color: #b5076b;
 }
 
 h3{
-  color: #035aa6;
+  color: #b5076b;
 }
 
 table{
-  color:#fcbf1e;
+  color:#f1ebbb;
 }
 
 li{
-  color: #fcbf1e;
+  color: #f1ebbb;
 }
 
 a{
-  color: #035aa6;
+  color: #f1ebbb;
 }
 
 form{
-  color: #fcbf1e;
+  color: #f1ebbb;
 }
