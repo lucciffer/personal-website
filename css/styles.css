@@ -12,6 +12,7 @@ hr{
 
 }
 
+
 h1{
   color: #b5076b;
 }
@@ -23,15 +24,25 @@ h3{
 table{
   color:#f1ebbb;
 }
+
 .skills{
   color: #b6eb7a;
 }
+
 li{
   color: #f1ebbb;
 }
 
 a{
   color: #f1ebbb;
+}
+
+.more{
+  color: #f1ebbb;
+}
+
+.more:hover{
+  color: #a6dcef;
 }
 
 form{
