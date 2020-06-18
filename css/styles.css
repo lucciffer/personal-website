@@ -1,0 +1,208 @@
+body{
+  margin: 0;
+  background-color: #212121;
+
+  text-align: center;
+  font-family: 'Noto Sans', sans-serif;
+}
+
+h1{
+
+  margin: 0 auto 0 auto;
+  font-family: 'Pacifico', cursive;
+  color: #14ffec;
+  font-weight: 200;
+  font-size: 40px;
+}
+
+h2{
+  color: #14ffec;
+  font-family: 'Noto Sans', sans-serif;
+  font-weight: normal;
+}
+
+h3{
+  color: #14ffec;
+}
+
+p{
+  color: #0d7377;
+  font-size: 20px;
+  font-weight: normal;
+  line-height: 2;
+}
+
+.top-container{
+  background-color: #212121;
+  position: relative;
+  padding-top: 100px;
+
+
+}
+
+.middle-container{
+  margin: 100px 0;
+  background-color: #212121;
+}
+
+.bottom-container{
+  margin: 100px 0;
+  background-color: #212121;
+}
+
+
+
+.bottom-cloud{
+  position: absolute;
+  left: 300px;
+  bottom: 300px;
+}
+
+.top-cloud{
+  position: absolute;
+  right: 300px;
+  top: 50px;
+
+}
+
+.dp{
+  width: 200px;
+  height: 200px;
+}
+
+.avatar{
+  height: 300px;
+  width: 300px;
+  border-radius: 50%;
+  margin-top: 150px;
+}
+
+
+.skill-row{
+  width: 50%;
+  margin: 100px auto 100px auto;
+  text-align: left;
+  padding-bottom: 50px;
+}
+.skill-row-coffee{
+  width: 50%;
+  margin: 100px auto 100px auto;
+  text-align: left;
+  padding-bottom: 50px;
+
+}
+
+.code-img{
+  height: 200px;
+  width: 200px;
+  border-radius: 50%;
+  border-style:  solid;
+  border-color: #14ffec;
+  float: left;
+  margin-right: 30px;
+
+}
+
+.coffee-img{
+  height: 200px;
+  width: 200px;
+  border-radius: 50%;
+  border-style:  solid;
+  border-color: #14ffec;
+  float: right;
+  margin-left:  30px;
+}
+
+hr{
+  border-style: none;
+  border-top-style: dotted;
+  border-color: #323232;
+  background-color: #212121;
+  border-width: 5px;
+  width: 15%;
+
+}
+
+.intro{
+  width: 30%;
+  margin: auto;
+}
+
+.contact-message{
+  width: 40%;
+  margin: 40px auto 60px;
+
+}
+
+
+
+.Contact-Me{
+  width: 280px;
+  height: 80px;
+  background: #14ffec;
+  border-radius: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  position: relative;
+  cursor: pointer;
+  transition: .3s linear;
+  margin: 10px auto 10px auto;
+}
+
+.Contact-Me:hover{
+  transform: scale(1.1);
+}
+
+.Contact-Me span{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: #212121;
+  color: #14ffec;
+  text-align: center;
+  line-height: 80px;
+  z-index: 999;
+  transition: .6s linear;
+  border-radius: 40px;
+}
+
+.Contact-Me:hover span{
+  transform: translateX(-100%);
+  transition-delay: .3s;
+}
+
+.Contact-Me a{
+  flex: 1;
+  font-size: 26px;
+  color: #212121;
+  text-align: center;
+  transform: translateX(-100%);
+  opacity: 0;
+  transition: 0.3s linear;
+}
+
+.Contact-Me:hover a{
+  opacity: 1;
+  transform: translateX(0);
+}
+
+.Contact-Me a:nth-of-type(1){
+  transition-delay: 1s;
+}
+
+.Contact-Me a:nth-of-type(2){
+  transition-delay: 0.8s;
+}
+
+.Contact-Me a:nth-of-type(3){
+  transition-delay: 0.6s;
+}
+
+.Contact-Me a:nth-of-type(4){
+  transition-delay: 0.4s;
+}
+.Contact-Me a:nth-of-type(5){
+  transition-delay: 0.2s;
+}
