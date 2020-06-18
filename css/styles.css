@@ -31,10 +31,19 @@ table{
 
 li{
   color: #f1ebbb;
+  list-style: none;
 }
+
+
 
 a{
   color: #f1ebbb;
+}
+
+.socialmedia:hover{
+  color: #a6dcef;
+  cursor: pointer;
+
 }
 
 .more{
@@ -43,8 +52,11 @@ a{
 
 .more:hover{
   color: #a6dcef;
+  cursor: pointer;
+
 }
 
 form{
   color: #f1ebbb;
 }
+
