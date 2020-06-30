@@ -4,6 +4,7 @@ body{
 
   text-align: center;
   font-family: 'Courier',monospace;
+  letter-spacing: -1px;
 }
 
 
@@ -20,12 +21,14 @@ h1{
 h2{
   color: #14ffec;
   font-family: 'Courier',monospace;
+  letter-spacing: -1px;
   font-weight: normal;
 }
 
 h3{
   color: #14ffec;
   font-family: 'Courier',monospace;
+  letter-spacing: -1px;
 }
 
 p{
@@ -34,6 +37,7 @@ p{
   font-weight: normal;
   line-height: 2;
   font-family: 'Courier',monospace;
+  letter-spacing: -1px;
 }
 
 .tagline{
@@ -166,6 +170,7 @@ hr{
   transition: .3s linear;
   margin: 10px auto 10px auto;
   font-family: 'Courier',monospace;
+  letter-spacing: -1px;
 }
 
 .Contact-Me:hover{
@@ -223,3 +228,4 @@ hr{
 .Contact-Me a:nth-of-type(5){
   transition-delay: 0.2s;
 }
+
