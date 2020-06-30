@@ -3,8 +3,10 @@ body{
   background-color: #212121;
 
   text-align: center;
-  font-family: 'Noto Sans', sans-serif;
+  font-family: 'Courier',monospace;
 }
+
+
 
 h1{
 
@@ -17,13 +19,13 @@ h1{
 
 h2{
   color: #14ffec;
-  font-family: 'Noto Sans', sans-serif;
+  font-family: 'Courier',monospace;
   font-weight: normal;
 }
 
 h3{
   color: #14ffec;
-  font-family: 'Noto Sans', sans-serif;
+  font-family: 'Courier',monospace;
 }
 
 p{
@@ -31,7 +33,12 @@ p{
   font-size: 20px;
   font-weight: normal;
   line-height: 2;
-  font-family: 'Noto Sans', sans-serif;
+  font-family: 'Courier',monospace;
+}
+
+.tagline{
+  font-weight: 500;
+
 }
 
 .top-container{
@@ -43,6 +50,10 @@ p{
 
 .tengine{
   color: #14ffec;
+}
+
+.tengine:hover{
+  color: #5c2a9d;
 }
 
 .middle-container{
@@ -59,8 +70,8 @@ p{
 
 .bottom-cloud{
   position: absolute;
-  left: 300px;
-  bottom: 300px;
+  left: 18.75em;
+  bottom: 18.75em;
 }
 
 .top-cloud{
@@ -154,7 +165,7 @@ hr{
   cursor: pointer;
   transition: .3s linear;
   margin: 10px auto 10px auto;
-  font-family: 'Noto Sans', sans-serif;
+  font-family: 'Courier',monospace;
 }
 
 .Contact-Me:hover{
@@ -212,4 +223,3 @@ hr{
 .Contact-Me a:nth-of-type(5){
   transition-delay: 0.2s;
 }
-
